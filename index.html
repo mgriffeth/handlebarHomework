@@ -1,0 +1,42 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>handleHomework</title>
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="styles/vendor.css">
+
+    <link rel="stylesheet" href="styles/main.css">
+
+    <script src="scripts/vendor/modernizr.js"></script>
+  </head>
+  <body>
+    <div>
+      <ul class="comic-list">
+      </ul>
+
+    </div>
+
+
+    <div>
+      <ul class="herb-list">
+
+      </ul>
+
+
+      <script id="herb" type="text/x-handlebars-template">
+        {{#each herbs}}
+          <li>The herb {{name}} is commonly used to make {{usedFor}}.</li>
+        {{/each}}
+      </script>
+
+    </div>
+
+    <script src="scripts/vendor.js"></script>
+
+        <script src="scripts/main.js"></script>
+</body>
+</html>
